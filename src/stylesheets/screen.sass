@@ -1,0 +1,68 @@
+@import compass/reset
+@import blueprint/grid
+@import compass/css3/box-shadow
+@import compass/css3/transform
+body
+  background-image: url(/images/cloth022.jpg)
+  font-family: "Josefin Sans", sans-serif
+
+.content
+  +container
+  :margin-top 15px
+  :padding 20px
+  text-align: center
+
+  h1
+    font-family: "Corben", serif
+    font-size: 2em
+    color: #981a21
+  p
+    margin: 10px
+    font-size: 1.5em
+    letter-spacing: 0.15em
+  ul
+    li.sticky
+      padding: 5px
+      position: relative
+      display: block
+      float: left
+      width: 280px
+      height: 150px
+      margin: 30px 10px
+      font-family: "Coming Soon", sans-serif
+      background-color: #f1f3a5
+      font-size: 1.3em
+      padding-top: 2em
+      +box-shadow(#777, 0,0,5px)
+    li::before 
+      content: ' '
+      display: block
+      position: absolute
+      left: 115px
+      top: -15px
+      width: 75px
+      height: 25px
+      z-index: 2
+      background-color: rgba(243,245,228,0.8)
+      border: 2px solid rgba(255,255,255,0.8)
+      +box-shadow(#888,0,0,5px)
+      +rotate(-6deg)
+    li:nth-child(even)
+      +rotate(1deg)
+    li:nth-child(even)
+      +rotate(-3deg)
+    li:last-child
+      margin-left: 50px
+      width: 550px
+      +rotate(2deg)
+      background-color: #ffb4b1
+      a
+        font-size: larger
+        color: #333
+      em
+        font-size: larger
+    li:last-child::before
+      left: 240px
+      background-color: rgba(243,245,228,0.6)
+      
+
