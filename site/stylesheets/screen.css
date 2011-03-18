@@ -1,0 +1,169 @@
+/* line 14, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, /Users/vagmi/.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 5 */
+body {
+  background-image: url(/images/cloth022.jpg);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* line 9 */
+.content {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 15px;
+  padding: 20px;
+  text-align: center;
+}
+/* line 15 */
+.content h1 {
+  font-family: "Corben", serif;
+  font-size: 2em;
+  color: #981a21;
+}
+/* line 19 */
+.content p {
+  margin: 10px;
+  font-size: 1.5em;
+  letter-spacing: 0.15em;
+}
+/* line 24 */
+.content ul li.sticky {
+  padding: 5px;
+  position: relative;
+  display: block;
+  float: left;
+  width: 280px;
+  height: 150px;
+  margin: 30px 10px;
+  font-family: "Coming Soon", sans-serif;
+  background-color: #f1f3a5;
+  font-size: 1.3em;
+  padding-top: 2em;
+  -moz-box-shadow: #777777 0 0 5px;
+  -webkit-box-shadow: #777777 0 0 5px;
+  -o-box-shadow: #777777 0 0 5px;
+  box-shadow: #777777 0 0 5px;
+}
+/* line 37 */
+.content ul li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 115px;
+  top: -15px;
+  width: 75px;
+  height: 25px;
+  z-index: 2;
+  background-color: rgba(243, 245, 228, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: #888888 0 0 5px;
+  -webkit-box-shadow: #888888 0 0 5px;
+  -o-box-shadow: #888888 0 0 5px;
+  box-shadow: #888888 0 0 5px;
+  -moz-transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+/* line 50 */
+.content ul li:nth-child(even) {
+  -moz-transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+/* line 52 */
+.content ul li:nth-child(even) {
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+/* line 54 */
+.content ul li:last-child {
+  margin-left: 50px;
+  width: 550px;
+  -moz-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+  background-color: #ffb4b1;
+}
+/* line 59 */
+.content ul li:last-child a {
+  font-size: larger;
+  color: #333333;
+}
+/* line 62 */
+.content ul li:last-child em {
+  font-size: larger;
+}
+/* line 64 */
+.content ul li:last-child::before {
+  left: 240px;
+  background-color: rgba(243, 245, 228, 0.6);
+}
