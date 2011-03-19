@@ -6,6 +6,21 @@ body
   background-image: url(/images/cloth022.jpg)
   font-family: "Josefin Sans", sans-serif
 
+#coming_soon
+  +rotate(45deg)
+  width: 280px
+  position: absolute
+  top: 60px
+  right: -60px
+  background-color: #a00
+  text-align: center
+  font-size: 2em
+  color: #fff
+  padding: 5px 0 10px 0
+  +box-shadow(#777 0 0 5px 2px)
+  overflow: hidden
+  font-family: "Architects Daughter"
+
 .content
   +container
   :margin-top 15px
@@ -29,10 +44,10 @@ body
       width: 280px
       height: 150px
       margin: 30px 10px
-      font-family: "Coming Soon", sans-serif
+      font-family: "Architects Daughter", sans-serif
       background-color: #f1f3a5
-      font-size: 1.3em
-      padding-top: 2em
+      font-size: 1.5em
+      padding-top: 1em
       +box-shadow(#777 0 0 5px)
     li::before 
       content: ' '
@@ -57,10 +72,10 @@ body
       +rotate(2deg)
       background-color: #ffb4b1
       a
-        font-size: larger
+        font-weight: bold
         color: #333
       em
-        font-size: larger
+        font-weight: bold
     li:last-child::before
       left: 240px
       background-color: rgba(243,245,228,0.6)

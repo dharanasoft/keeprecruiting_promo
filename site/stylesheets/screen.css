@@ -65,6 +65,30 @@ body {
 }
 
 /* line 9 */
+#coming_soon {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 280px;
+  position: absolute;
+  top: 60px;
+  right: -60px;
+  background-color: #aa0000;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  padding: 5px 0 10px 0;
+  -moz-box-shadow: #777777 0 0 5px 2px;
+  -webkit-box-shadow: #777777 0 0 5px 2px;
+  -o-box-shadow: #777777 0 0 5px 2px;
+  box-shadow: #777777 0 0 5px 2px;
+  overflow: hidden;
+  font-family: "Architects Daughter";
+}
+
+/* line 24 */
 .content {
   width: 950px;
   margin: 0 auto;
@@ -74,19 +98,19 @@ body {
   padding: 20px;
   text-align: center;
 }
-/* line 15 */
+/* line 30 */
 .content h1 {
   font-family: "Corben", serif;
   font-size: 2em;
   color: #981a21;
 }
-/* line 19 */
+/* line 34 */
 .content p {
   margin: 10px;
   font-size: 1.5em;
   letter-spacing: 0.15em;
 }
-/* line 24 */
+/* line 39 */
 .content ul li.sticky {
   padding: 5px;
   position: relative;
@@ -95,16 +119,16 @@ body {
   width: 280px;
   height: 150px;
   margin: 30px 10px;
-  font-family: "Coming Soon", sans-serif;
+  font-family: "Architects Daughter", sans-serif;
   background-color: #f1f3a5;
-  font-size: 1.3em;
-  padding-top: 2em;
+  font-size: 1.5em;
+  padding-top: 1em;
   -moz-box-shadow: #777777 0 0 5px;
   -webkit-box-shadow: #777777 0 0 5px;
   -o-box-shadow: #777777 0 0 5px;
   box-shadow: #777777 0 0 5px;
 }
-/* line 37 */
+/* line 52 */
 .content ul li::before {
   content: " ";
   display: block;
@@ -126,7 +150,7 @@ body {
   -ms-transform: rotate(-6deg);
   transform: rotate(-6deg);
 }
-/* line 50 */
+/* line 65 */
 .content ul li:nth-child(even) {
   -moz-transform: rotate(1deg);
   -webkit-transform: rotate(1deg);
@@ -134,7 +158,7 @@ body {
   -ms-transform: rotate(1deg);
   transform: rotate(1deg);
 }
-/* line 52 */
+/* line 67 */
 .content ul li:nth-child(even) {
   -moz-transform: rotate(-3deg);
   -webkit-transform: rotate(-3deg);
@@ -142,7 +166,7 @@ body {
   -ms-transform: rotate(-3deg);
   transform: rotate(-3deg);
 }
-/* line 54 */
+/* line 69 */
 .content ul li:last-child {
   margin-left: 50px;
   width: 550px;
@@ -153,16 +177,16 @@ body {
   transform: rotate(2deg);
   background-color: #ffb4b1;
 }
-/* line 59 */
+/* line 74 */
 .content ul li:last-child a {
-  font-size: larger;
+  font-weight: bold;
   color: #333333;
 }
-/* line 62 */
+/* line 77 */
 .content ul li:last-child em {
-  font-size: larger;
+  font-weight: bold;
 }
-/* line 64 */
+/* line 79 */
 .content ul li:last-child::before {
   left: 240px;
   background-color: rgba(243, 245, 228, 0.6);
